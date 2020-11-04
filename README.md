@@ -10,70 +10,60 @@
 
 | NO | Description | Link |
 | ----- | ----- | ---- |
-| 1. | Pertemuan 5 | [click here](#pertemuan-5---latihan) |
-| 1. | Pertemuan 6 lab 1 | [click here](#pertemuan-6---lab-1) |
+| 1. | Pertemuan 5 - Latihan| [silahkan klik](#pertemuan-5---latihan) |
+| 2. | Pertemuan 6 - Lab 1 | [silahkan klik](#pertemuan-6---lab-1) |
+| 3. | Pertemuan 6 - Lab 1-2 | [silahkan klik](#pertemuan-6---lab-1-2) |
+| 4. | Pertemuan 6 - Lab 2 | [silahkan klik](#pertemuan-6---lab-2) |
 ### Pertemuan 5 - Latihan
 
 Pada pertemuan 5 bahasa pemograman, saya diberi soal untuk latihan oleh Dosen untuk membuat Aplikasi Biodata dengan python (Seperti gambar di bawah ini:)
-![latihan pertemuan 5]
-
-![foto 1](https://user-images.githubusercontent.com/66506609/97837657-3d002000-1d11-11eb-80d0-7332a6b8a92c.png)
-
-
+![latihan pertemuan 5](isi%20foto/foto%201.png)
 Saat ini saya akan menjelaskan hasil dari tugas tersebut. <br>
 Berikut *source code* nya atau klik berikut ([latihan 5](tugas5.py)): <br>
-
 ``` python
 print "  ====================================" 
-print "       Latihan 1 Biodata Fara Deviana        "
+print "        Latihan  Biodata Fara        "
 print "  ===================================="
-
 #variabel
-
 nama= raw_input ("Masukan Nama Lengkap Anda: ")
 panggilan= raw_input ("Masukan Nama Panggilan: ")
 nim= raw_input ("Masukan Nim Anda: ")
 ttl= raw_input ("Masukan Tempat Lahir Anda`: ")
-tl= input ("Masukan Tanggal lahir  Anda: ")
-alamat= raw_input ("Masukan Alamat Anda: ")
+tl= input ("Masukan Umur Anda: ")
 telpone= raw_input ("Masukan No Telpon Anda: ")
+alamat= raw_input ("Masukan Alamat Anda: ")
 
-#hasil inputan dari variable
-print "Assalamu'alaikum Wr.Wb"
-print "Let me introduce my self My name is",nama,"but you can call me",panggilan,"my NPM is",nim,"I was born in",ttl,"and I am",tl,"years old. I am very glad if you want to invite my house in",alamat,".So, don't forget to call me before with the number",telpone,
+
+#Menampilkan Inputan User
+print "\n Assalamu'alaikum Wr.Wb. "
+print "Let me introduce my self My name is",nama,"but you can call me",panggilan,".My NIM is",nim,"I was born in",ttl,"and I am",tl,"years old. I am very glad if you want to invite my house in",alamat,".So, don't forget to call me before with the number",telpone,
+print "\n Terimakasih Jangan Lupa Semangat"
 ```
 
 * Berikut penjelasan :<br>
 ``` python
-print("masukan nama lengkap anda : ")
+print("please your full name : ")
 ```
-
-source code fiatas berfungsi untuk mencetak hasil / output berupa " **masukan nama lengkap anda :** ". <br>
+source code fiatas berfungsi untuk mencetak hasil / output berupa " **Masukan Nama Anda :** ". <br>
  Untuk menampilkan output string, saya menggunakan *tanda petik dua* didalam fungsi print(), sedangkan jika saya ingin menampilkan output / hasil berupa angka / interger saya tidak perlu menggunakan *tanda petik dua*. Contohnya:
- 
-``` python
-print("nama lengkap saya adalah ...")
-print(696969)
+ ``` python 
+ print("masukan nama anda ...")
+print(4646)
 ```
-* Seperti gambar berikut ini 
-
-![image](https://user-images.githubusercontent.com/66506609/97841431-640e2000-1d18-11eb-84bf-f955715c3642.png)
-
+<br>(Seperti gambar berikut ini <br>)
+![Output fungsi print](isi%20foto/foto%202.png) <br>
 * Untuk source code berikutnya adalah inputan atau membuat variable. Seperti syntax dibawah ini:
 
 ``` python
 nama=raw_input()
 ```
 Keterangan : <br>
-1. Variable adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **NAMA** . <br>
+1. Variable adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **fullname** . <br>
 
-2. Fungsi **input()** adalah untuk memasukan nilai dar layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)*
-
-![image](https://user-images.githubusercontent.com/66506609/97842495-45108d80-1d1a-11eb-900f-768f750724bf.png)
-
-
+2. Fungsi **input()** adalah untuk memasukan nilai dar layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)* <br>
+![input](isi%20foto/foto%203.png) <br>
 Pada gambar diatas, hasil dari inputan tersebut berwarna *putih* <br>
-* Untuk memasukan printah lain seperti *Nama, NIM, Tempat lahir, Tanggal Lahir, Nomor Telphone,* mengikuti perintah yang sama seperti memasukan *NAMA* <br>
+* Untuk memasukan printah lain seperti *Nama, NIM, Tempat Lahir, Umur, No Telpon,* mengikuti perintah yang sama seperti memasukan *fullname* <br>
 
 * Untuk menghitung rumus umur saya menggunakan variable *DOB* yaitu 2020 (Tahun sekarang) dikurangi dengan Year of bircth, pada source code berikut : <br>
 ``` python
@@ -84,34 +74,32 @@ Pada syntax / source code diatas, saya menggunakan variable *dob* dimana untuk m
 * Langkah kali ini saya akan menampilkan output yang diminta oleh Dosen. <br>
 Output pertama yang di minta Dosen adalah menampilkan salam, yaitu dengan mengetikkan syntax / source code berikut : 
 ``` python
-print("\n Asalammu'alaikum Wr.Wb. ")
+print("\n Asalammualaikum.")
 ```
 Keterangan :
 1. Fungsi **\n** pada source code diatas adalah untuk memberi baris baru / enter / *newline*
 2. Fungsi print() seperti dijelaskan pada point **Output** diatas
 Hasil source code diatas adalah seperti gambar dibawah ini : <br>
 
-![image](https://user-images.githubusercontent.com/66506609/97844863-578cc600-1d1e-11eb-82a3-fff14807d002.png)
-
+![Output salam](isi%20foto/foto%204.png)
 * Langkah terakhir menampilkan semua hasil dari inputan diatas. Dengan mengetikan source code berikut : <br>
 ``` python
-print(f"Let me introduce my self. My name is {fullname}, but you can call me {nickname}. My NPM {npm}. I was born in {pob} and Iam {dob} years old. I am very glad if you want to invite my house in {address}. So don't forget to call me before with the number {phone}. \n Thank You ")
+print "Let me introduce my self My name is",nama,"but you can call me",panggilan,
+".My NIM is",nim,"I was born in",ttl,"and I am",tl,"years old. I am very glad if you want to invite my house in",alamat,".So, don't forget to call me before with the number",telpone,
 ```
 Keterangan : <br>
 * Fungsi huruf **f** pada perintah *print(f"....")* adalah fungsi print atau bisa memudahkan program dalam mencetak statement dalam suatu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan symbol koma ( , ) atau plus ( + ) <br>
 * Sedangkan fungsi {} pada output tersebut menampilkan hasil variable <br>
 Hasil dari output tersebut seperti berikut : <br>
-
-![image](https://user-images.githubusercontent.com/66506609/97845181-d97cef00-1d1e-11eb-9d80-abd18be3e518.png)
-
+![alloutput](isi%20foto/foto%205.png)
+<br>
+<br>
+<br>
 
 ### Pertemuan 6 - lab 1
 
-Pada halaman ini (Tugas pertemuan 6 - lab 1) Saya di berikan tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan bahasa pemograman python. Berikut source yang di berikan oleh Dosen [source lab 1](lab1.py)
-![Pertemmuan 6 - lab 1]
-
-<img width="158" alt="fot0 6" src="https://user-images.githubusercontent.com/66506609/97900144-de688f80-1d6c-11eb-84ec-5ad80103d26e.png">
-
+Pada halaman ini (Tugas pertemuan 6 - lab 1) Saya di berikan tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan bahasa pemograman python. Berikut source yang di berikan oleh Dosen [source code lab 1](lab1.py)
+![Pertemmuan 6 - lab 1](isi%20foto/foto%206.png)
 ``` python
 #Penggunaan End
 print("A", end="")
@@ -153,8 +141,7 @@ print("Y")
 print("Z")
 ```
 Hasil dari source code terseut seperti gambar di bawah ini: 
-
-![Screenshot (78)](https://user-images.githubusercontent.com/66506609/97899963-98abc700-1d6c-11eb-8b66-db069d427d3b.png)
+![Output END](isi%20foto/foto%207.png)
 
 * Pengertian separaktor
 Sepaktor adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda sepasi <br><br>
@@ -184,7 +171,7 @@ print(w,x,y,z,sep="-----")
 ```
 
 Hasil dari syntax / source code diatas adalah seperti berikut iniL: <br>
-![Output Separator](praktikum/10.png)
+![Output Separator](isi%20foto/foto%208.png)
 <br>
 <br>
 <br>
@@ -193,8 +180,9 @@ Hasil dari syntax / source code diatas adalah seperti berikut iniL: <br>
 String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
 
 Penggunaan pada source yang di berikan Dosen sebagai berikut : <br>
-![Lab 1-2](praktikum/lab1-2.png) <br> 
+![Lab 1-2](isi%20foto/foto%209.png) <br> 
 ``` python
+#Rizky
 # string format 1
 print(0, 10 ** 0)
 print(1, 10 ** 1)
@@ -223,13 +211,14 @@ print('{0:>3}{1:>16})'.format(10, 10 ** 10))
 ```
 <br>
 Saat ini saya akan menjelaskan satu persatu dari syntax yang diberikan oleh Dosen <br>
+Tugas yang di berikan oleh Dosen adalah seperti gambar dibawah ini atau bisa di temukan dengan link berikut : ([source code](lanjutan lab1.py))
 1. **String format 1** <br>
 Pada syntax / source code string format 1 akan menampilkan output berupa 2 outputan. <br>
 Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, sedangkan sebelah kanan akan menampilkan Oprasi Aritmatika Pangkat. <br>
 Dengan ketentuan sebagau berikut, oprasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [Bintang dua]) <br>
 Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10. Dengan output sebagai berikut : <br>
 
-![Operasi Aritmatika pangkat **](praktikum/pangkat.png)<br><br>
+![Operasi Aritmatika pangkat **](isi%20foto/foto%2010.png)<br><br>
 
 2. **String Format 2** <br><br>
 Pada syntax / source code string format 2 akan menampilkan output berupa 2 output'an juga (Seoerti string format 1, yaitu kanan dan kiri) <br>
@@ -241,18 +230,18 @@ print('{0:8} | {1:9}'.format('dalas', 3.))
 print('{0:8} | {1:9}'.format('NB',10))
 ```
 Hasil dari source code contoh di atas akan seperti berikut : <br>
-![OutPut Aligmnent contoh](praktikum/nb.png)<br><br>
+![OutPut Aligmnent contoh](isi%20foto/foto%2011.png)<br><br>
 > Secara default, **.format()** menggunakan rata text kiri, angka ke kanan. <,^, atau > untuk perataan kiri, tengah , atau kanan. Contoh lain dari penggunaan **.format()** sebagai berikut : <br>
 ``` python
 print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
 print('{:<30}{:^30}{:>30}'.format(12,34,56))
 ```
 Hasil dari source code contohdiatas akan muncul seperti ini : <br>
-![Output Alignment](praktikum/rata.png)
+![Output Alignment](isi%20foto/foto%2012.png)
 <br>
 <br>
 Hasil string format 2 adalah : <br>
-![Output Alignment contoh 2](praktikum/ratakanan.png)
+![Output Alignment contoh 2](isi%20foto/foto%2013.png)
 <br>
 <br>
 
@@ -260,7 +249,7 @@ Hasil string format 2 adalah : <br>
 
 * Konversi Nilai Variable
 Untuk pembahasan terakhir, kali ini akan myenyelesaikan tugas Lab 2 dari Dosen, yaitu Konversi Nilai Variable <br>
-Tugas yang di berikan oleh Dosen adalah seperti gambar dibawah ini atau bisa di temukan dengan link berikut : ([temukan](lab%202.py))
+Tugas yang di berikan oleh Dosen adalah seperti gambar dibawah ini atau bisa di temukan dengan link berikut : ([source code](lab2.py))
 ``` python
 a=int(input("Masukkan Nilai A : "))
 b=int(input("Masukkan Nilai B : "))
@@ -277,6 +266,6 @@ print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 <br>
 Hasil dari source / code diatas : <br>
 
-![Output source diatas](praktikum/code.png)
+![Output source diatas](isi%20foto/foto%2014.png)
 <br>
 <br>
