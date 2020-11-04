@@ -53,7 +53,7 @@ source code fiatas berfungsi untuk mencetak hasil / output berupa " **Masukan Na
 print(4646)
 ```
 <br>(Seperti gambar berikut ini <br>)
-![Output fungsi print](isi%20foto/foto%202.png) <br>
+![foto 2](https://user-images.githubusercontent.com/72803399/98158140-0b53a880-1f0d-11eb-8d8a-1d34d0eb7a7f.jpg)
 * Untuk source code berikutnya adalah inputan atau membuat variable. Seperti syntax dibawah ini:
 
 ``` python
@@ -62,8 +62,9 @@ nama=raw_input()
 Keterangan : <br>
 1. Variable adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **fullname** . <br>
 
-2. Fungsi **input()** adalah untuk memasukan nilai dar layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)* <br>
-![input](isi%20foto/foto%203.png) <br>
+2. Fungsi **input()** adalah untuk memasukan nilai dar layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)* 
+![foto 3](https://user-images.githubusercontent.com/72803399/98158141-0bec3f00-1f0d-11eb-910b-47cdcda8b9fd.jpg)
+
 Pada gambar diatas, hasil dari inputan tersebut berwarna *putih* <br>
 * Untuk memasukan printah lain seperti *Nama, NIM, Tempat Lahir, Umur, No Telpon,* mengikuti perintah yang sama seperti memasukan *fullname* <br>
 
@@ -81,9 +82,8 @@ print("\n Asalammualaikum.")
 Keterangan :
 1. Fungsi **\n** pada source code diatas adalah untuk memberi baris baru / enter / *newline*
 2. Fungsi print() seperti dijelaskan pada point **Output** diatas
-Hasil source code diatas adalah seperti gambar dibawah ini : <br>
-
-![Output salam](isi%20foto/foto%204.png)
+Hasil source code diatas adalah seperti gambar dibawah ini : 
+![foto 45](https://user-images.githubusercontent.com/72803399/98158156-0f7fc600-1f0d-11eb-8b98-fcd7919b323b.jpg)
 * Langkah terakhir menampilkan semua hasil dari inputan diatas. Dengan mengetikan source code berikut : <br>
 ``` python
 print "Let me introduce my self My name is",nama,"but you can call me",panggilan,
@@ -91,17 +91,15 @@ print "Let me introduce my self My name is",nama,"but you can call me",panggilan
 ```
 Keterangan : <br>
 * Fungsi huruf **f** pada perintah *print(f"....")* adalah fungsi print atau bisa memudahkan program dalam mencetak statement dalam suatu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan symbol koma ( , ) atau plus ( + ) <br>
-* Sedangkan fungsi {} pada output tersebut menampilkan hasil variable <br>
-Hasil dari output tersebut seperti berikut : <br>
-![alloutput](isi%20foto/foto%205.png)
-<br>
-<br>
-<br>
+* Sedangkan fungsi {} pada output tersebut menampilkan hasil variable 
+Hasil dari output tersebut sebagai berikut :
+![foto 45](https://user-images.githubusercontent.com/72803399/98158156-0f7fc600-1f0d-11eb-8b98-fcd7919b323b.jpg)
 
 ### Pertemuan 6 - lab 1
 
-Pada halaman ini (Tugas pertemuan 6 - lab 1) Saya di berikan tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan bahasa pemograman python. Berikut source yang di berikan oleh Dosen [source code lab 1](lab1.py)
-![Pertemmuan 6 - lab 1](isi%20foto/foto%206.png)
+Pada halaman ini (Tugas pertemuan 6 - lab 1) Saya di berikan tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan bahasa pemograman python. Berikut source yang di berikan oleh Dosen [source code lab 1]
+![foto 6](https://user-images.githubusercontent.com/72803399/98158142-0c84d580-1f0d-11eb-8820-ae3bbb520a18.jpg)
+
 ``` python
 #Penggunaan End
 print("A", end="")
@@ -143,7 +141,8 @@ print("Y")
 print("Z")
 ```
 Hasil dari source code terseut seperti gambar di bawah ini: 
-![Output END](isi%20foto/foto%207.png)
+![foto 7](https://user-images.githubusercontent.com/72803399/98158144-0d1d6c00-1f0d-11eb-8fb8-34b5c0589330.jpg)
+
 
 * Pengertian separaktor
 Sepaktor adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda sepasi <br><br>
@@ -173,16 +172,15 @@ print(w,x,y,z,sep="-----")
 ```
 
 Hasil dari syntax / source code diatas adalah seperti berikut iniL: <br>
-![Output Separator](isi%20foto/foto%208.png)
-<br>
-<br>
-<br>
+![foto 8](https://user-images.githubusercontent.com/72803399/98158147-0d1d6c00-1f0d-11eb-85b1-87cf2122e6e3.jpg)
+
 ### Pertemuan 6 - lab 1-2 
 * String format <br>
 String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
 
-Penggunaan pada source yang di berikan Dosen sebagai berikut : <br>
-![Lab 1-2](isi%20foto/foto%209.png) <br> 
+Penggunaan pada source yang di berikan Dosen sebagai berikut : 
+![foto 9](https://user-images.githubusercontent.com/72803399/98158148-0db60280-1f0d-11eb-82e2-f5dba2ed3c22.jpg)
+
 ``` python
 #Rizky
 # string format 1
@@ -220,7 +218,8 @@ Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, 
 Dengan ketentuan sebagau berikut, oprasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [Bintang dua]) <br>
 Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10. Dengan output sebagai berikut : <br>
 
-![Operasi Aritmatika pangkat **](isi%20foto/foto%2010.png)<br><br>
+![foto 10](https://user-images.githubusercontent.com/72803399/98158151-0e4e9900-1f0d-11eb-835f-8f9a97f429b1.jpg)
+
 
 2. **String Format 2** <br><br>
 Pada syntax / source code string format 2 akan menampilkan output berupa 2 output'an juga (Seoerti string format 1, yaitu kanan dan kiri) <br>
@@ -231,8 +230,9 @@ print('{0:8} | {1:9}'.format('sepatu','Jumlah'))
 print('{0:8} | {1:9}'.format('dalas', 3.))
 print('{0:8} | {1:9}'.format('NB',10))
 ```
-Hasil dari source code contoh di atas akan seperti berikut : <br>
-![OutPut Aligmnent contoh](isi%20foto/foto%2011.png)<br><br>
+Hasil dari source code contoh di atas akan seperti berikut : 
+![foto 11](https://user-images.githubusercontent.com/72803399/98158153-0e4e9900-1f0d-11eb-95f4-2f6f0b3b9a29.jpg)
+
 > Secara default, **.format()** menggunakan rata text kiri, angka ke kanan. <,^, atau > untuk perataan kiri, tengah , atau kanan. Contoh lain dari penggunaan **.format()** sebagai berikut : <br>
 ``` python
 print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
@@ -268,6 +268,6 @@ print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 <br>
 Hasil dari source / code diatas : <br>
 
-![Output source diatas](isi%20foto/foto%2014.png)
-<br>
-<br>
+
+![foto 14](https://user-images.githubusercontent.com/72803399/98158154-0ee72f80-1f0d-11eb-8d51-fd7c6b57de95.jpg)
+
