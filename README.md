@@ -1,8 +1,8 @@
 # Tugas Ini Untuk Melengkapi Pertemuan 6 <br>
 ## Dan Menjelaskan Project <br>
 
-**NAMA : Muhammad Rizky Abdillah** <br>
-**NIM : 312010049** <br>
+**NAMA : Fara Deviana** <br>
+**NIM : 312010407** <br>
 **KELAS : TI.20.A.2** <br>
 **TUGAS : BAHASA PEMOGRAMAN** <br>
 
@@ -25,7 +25,7 @@ Berikut *source code* nya atau klik berikut ([latihan 5](tugas5.py)): <br>
 
 ``` python
 print "  ====================================" 
-print "       Latihan 1 Biodata Rizky        "
+print "       Latihan 1 Biodata Fara Deviana        "
 print "  ===================================="
 
 #variabel
