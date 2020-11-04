@@ -239,11 +239,9 @@ print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
 print('{:<30}{:^30}{:>30}'.format(12,34,56))
 ```
 Hasil dari source code contohdiatas akan muncul seperti ini : <br>
-![Output Alignment](isi%20foto/foto%2012.png)
-<br>
-<br>
+
 Hasil string format 2 adalah : <br>
-![Output Alignment contoh 2](isi%20foto/foto%2013.png)
+
 <br>
 <br>
 
